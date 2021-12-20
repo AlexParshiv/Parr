@@ -1,0 +1,135 @@
+h1, h2{
+    font-family: "Comic Sans MS";
+    color: yellow;
+    background: #931322;
+    text-align: center;
+}
+p{
+    font-family: "Casual Contact MF";
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px 10px 0px 0px;
+}
+body{
+    background: url(../img/fon1.jpg)0 0 no-repeat fixed;
+    background-size: cover;
+    height: 1400px;
+    width: 1500px;
+}
+.one{
+    background-color: unset;
+    color: #931322;
+}
+.two{
+    background-color: red;
+    color: gold;
+
+}
+.tree{
+    background-color: brown;
+    color: yellow;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background: #931322;
+    height: 50px;
+}
+.lif{
+    text-decoration: none;
+    background:#931900;
+    color: gold;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid red;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.une:hover {
+    background:#D43737;
+}
+.lif:hover {
+    background: #D43737;
+}
+li {
+    float:left;
+    position:relative;
+}
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+    width:250px;
+}
+li:hover > ul > li {
+    float:none;
+}
+.one,.two,.tree{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 5px 0px 0px;
+}
+.une,.uno{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px 0px 10px 0px;
+}
+.anketa{
+    justify-content: center;
+    display: flex;
+
+}
+.grid1{
+    border-radius: 20px;
+    background-color: brown;
+    display: grid;
+    grid-template-areas:    "une"
+                            "uno";
+    font-weight: bold;
+    height: 425px;
+    width: 220px;
+}
+.films{
+    font-family: "Bodoni MT Black";
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: arial;
+    line-height:20px;
+}
+.films{
+    display:flex;
+    justify-content:space-between;
+}
+.txt{
+    font-family: Arial;
+    color: gold;
+    padding:5px;
+    line-height:20px;
+}
+a{
+    text-decoration: none;
+}
+.jcon, .lift {
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 15px;
+}
+.net, .lift{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 30px;
+}

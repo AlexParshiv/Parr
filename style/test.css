@@ -1,0 +1,95 @@
+h1{
+    font-family: "Casual Contact MF";
+    color: yellow;
+}
+h1{
+    font-family: "Comic Sans MS";
+}
+p{
+    font-family: "Casual Contact MF";
+}
+body{
+    background: url(../img/fon1.jpg);
+    background-size: cover;
+    height: 1900px;
+    width: 1900px;
+}
+.one{
+    background-color: orange;
+    color: #931322;
+}
+.two{
+    background-color: red;
+    color: gold;
+}
+.tree{
+    background-color: brown;
+    color: yellow;
+}
+.four{
+    background-color: brown;
+    color: yellow;
+}
+.tree,.two{
+    font-family: "Times New Roman"
+}
+div{
+    font-size: 35px;
+    padding: 80px;
+    margin: 10px 10px 0px 0px;
+    border-radius: 100px;
+}
+.no{
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background: #931322;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    background:#931900;
+    color: gold;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid red;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+    background:#D43737;
+}
+li {
+    float:left;
+    position:relative;
+}
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+    width:250px;
+}
+li:hover > ul > li {
+    float:none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section{
+    justify-content:space-between;
+}

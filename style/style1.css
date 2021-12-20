@@ -1,0 +1,148 @@
+h1, h2{
+    font-family: "Comic Sans MS";
+    color: #f4f4f4;
+    background: #525874;
+    text-align: center;
+}
+p{
+    font-family: "Casual Contact MF";
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px 10px 0px 0px;
+}
+body{
+    background: url(../img/fon2.jpg)0 0 no-repeat fixed;
+    background-size: cover;
+    height: 1400px;
+    width: 1500px;
+}
+.one{
+    background-color: unset;
+    color: #525874;
+}
+.two{
+    background-color: grey;
+    color: white;
+
+}
+.tree{
+    background-color: grey;
+    color: white;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background: #525874;
+    height: 50px;
+}
+.lif{
+    text-decoration: none;
+    background:#525874;
+    color: white;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid black;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.une:hover {
+    background:#394048;
+}
+.lif:hover {
+    background: #394948;
+}
+li {
+    float:left;
+    position:relative;
+}
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+    width:250px;
+}
+li:hover > ul > li {
+    float:none;
+}
+.one,.two,.tree{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 5px 0px 0px;
+}
+.une,.uno{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px 0px 10px 0px;
+}
+.anketa{
+    justify-content: center;
+    display: flex;
+
+}
+.grid1{
+    border-radius: 20px;
+    background-color: grey;
+    display: grid;
+    grid-template-areas:    "une"
+                            "uno";
+    font-weight: bold;
+    height: 425px;
+    width: 220px;
+}
+.films{
+    font-family: "Bodoni MT Black";
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: arial;
+    line-height:20px;
+}
+.txt{
+    font-family: Arial;
+    color: white;
+    padding:5px;
+    line-height:20px;
+}
+a{
+    text-decoration: none;
+}
+.jcon {
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 15px;
+}
+.net{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 30px;
+}
+
+/*max-width: [00..350]*/
+@media screen and (max-width: 350px) and (max-width: 750px){
+    .films {
+        font-size: 20px;
+        display: grid;
+        grid-template-areas: "grid1 grid1 grid1"
+                             "grid1 grid1 grid1";
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    p{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px 10px 0px 0px;
+    }
+}

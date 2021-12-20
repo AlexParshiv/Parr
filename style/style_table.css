@@ -1,0 +1,169 @@
+h1, h2{
+    font-family: "Comic Sans MS";
+    color: yellow;
+    background: #931322;
+    text-align: center;
+}
+p{
+    font-family: "Casual Contact MF";
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px 10px 0px 0px;
+}
+body{
+    background: url(../img/fon1.jpg)0 0 no-repeat fixed;
+    background-size: cover;
+    height: 1400px;
+    width: 1500px;
+}
+.one{
+    background-color: unset;
+    color: #931322;
+}
+.two{
+    background-color: red;
+    color: gold;
+}
+.tree{
+    background-color: brown;
+    color: yellow;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background: #931322;
+    height: 50px;
+}
+.lif{
+    text-decoration: none;
+    background:#931900;
+    color: gold;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid red;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.une:hover {
+    background:#D43737;
+}
+.lif:hover {
+    background: #D43737;
+}
+li {
+    float:left;
+    position:relative;
+}
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+    width:250px;
+}
+li:hover > ul > li {
+    float:none;
+}
+th, .period, .line{
+    background-color: white;
+}
+
+table, th, td { border: thin solid black;}
+table{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+caption{
+    font-size:180%;
+    margin-bottom: 3%;
+    background-color: red;
+    color: gold;
+}
+th, .period, .line {
+    font-size: x-large;
+    font-weight: bold;
+    width:120px
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+td.chem_element:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.element_cell {
+    display: grid;
+    grid-template-areas:    "symbol number"
+                            "symbol mass"
+                            "name name";
+    font-weight: bold;
+}
+.element_cell_reflect {
+    display: grid;
+    grid-template-areas:    "number symbol"
+                            "mass symbol"
+                            "name name";
+    font-weight: bold;
+}
+.element_symbol {
+    grid-area: symbol;
+    text-align: left;
+    font-size: 180%;
+}
+.element_number {
+    grid-area: number;
+    text-align: right;
+}
+.element_mass {
+    grid-area: mass;
+    text-align: right;
+    font-weight: normal;
+    font-size: 90%
+}
+.element_name {
+    grid-area: name;
+    text-align: left;
+}
+.element_symbol_reflect {
+    grid-area: symbol;
+    text-align: right;
+    font-size: 180%;
+}
+.element_number_reflect {
+    grid-area: number;
+    text-align: left;
+}
+.element_mass_reflect {
+    grid-area: mass;
+    text-align: left;
+    font-weight: normal;
+}
+.element_name_reflect {
+    grid-area: name;
+    text-align: right;
+}
+.bright_red     { background-color: rgb(228, 143, 154); }
+.yellow    { background-color: rgb(244, 277, 51); }
+.bright_blue     { background-color: rgb(150, 207, 225); }
